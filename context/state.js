@@ -9,7 +9,8 @@ export function AppWrapper({ children }) {
   const [token, setToken] = useState("");
   const [categories, setCategories] = useState([]);
   // const baseURL = "https://pricewards-test.herokuapp.com/api/v1";
-  const baseURL = "https://api.pricewards.com";
+  // const baseURL = "https://api.pricewards.com";
+  const baseURL = "https://gersa-internet-village-be.vercel.app";
 
   return (
     <AppContext.Provider
